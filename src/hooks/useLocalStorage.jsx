@@ -15,7 +15,7 @@ export default function useLocalStorage(key, initialValue) {
         return JSON.parse(localValue);
       }
     } catch (error) {
-      console.error("Error reading localStorage:", error);
+      console.error("Error reading localStorage:", error); 
       return initialValue;
     }
   });
@@ -30,3 +30,5 @@ export default function useLocalStorage(key, initialValue) {
 
     return [value, setValue];
 }
+
+    
