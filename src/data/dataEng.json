@@ -1,0 +1,63 @@
+{
+      "hero": {
+        "heroTitle": "I am a Frontend Developer...",
+        "heroDesc": "...who likes to craft solid and scalable frontend products with great user experiences.",
+        "githubLink": "https://github.com/sejda1",
+        "linkedinLink": "https://www.linkedin.com/in/sejdaozgurficici/"
+      },
+      "skills": {
+        "skills": "Skills"
+      },
+      "profile": {
+        "profileH": "Profile",
+        "birthday": "Birthday",
+        "birtdayDetail": "10.09.1990",
+        "city": "City",
+        "cityDetail": "Kırklareli",
+        "edu": "Education Status",
+        "eduDetail1": "Trakya University, Physical, Master Degree",
+        "eduDetail2": "Trakya University, Physical, Bachelor's Degree",
+        "prefer": "Preferred Role",
+        "preferD": "Frontend Developer",
+        "aboutH": "About Me",
+        "aboutText1": "For eight years, I worked as a physics teacher and took great joy in inspiring my students with a love for science. However, I have long held a deep interest and excitement for software development. This field, which combines problem-solving and creativity, has continuously drawn me in over the years..",
+        "aboutText2": "Now, I believe it’s time to follow my dreams. Rather than chasing money, I want to pursue my passions and grow in the world of software development. I am eager to learn, contribute, and thrive in this field."
+      },
+      "projects": {
+        "projectsH": "Projects",
+        "view": "View Site",
+        "projectList": [
+          {
+            "src": "",
+            "link": "https://github.com/sejda1/Pizza-Order-Challange",
+            "live": "https://pizza-order-challange.vercel.app/",
+            "heading": "Pizza Order Challange",
+            "desc": "I created a Homepage, Order Form and Order Received page for the brand Teknolojik Yemeks', a website designed to bring food to hungry software developers sitting in front of their computers.",
+            "teknologies": ["React", "Cypress", "Vercel", "Axios", "Toastify", "Router"]
+          },
+          {
+            "src": "",
+            "link": "https://github.com/sejda1/Dinamik-Menu",
+            "live": "https://dinamik-menu.vercel.app/",
+            "heading": "Dinamik Menu",
+            "desc": "In a café website project I developed using React and CSS, a login system was implemented that allows only users with administrative privileges to access it. After logging in, administrators are provided with an interface where they can dynamically update the menu. This system also integrates menu data stored in an Excel spreadsheet, enabling updates to be made through the spreadsheet when needed. The project aims to deliver a user-friendly front-end experience while providing an easy-to-use management panel for administrators.",
+            "teknologies": ["React", "Css", "Vercel", "Axios", "Router"]
+          },
+          {
+            "src": "",
+            "link": "https://github.com/sejda1/Movie-List-with-React-Redux",
+            "live": "https://movie-list-with-react-redux.vercel.app/",
+            "heading": "Movie List",
+            "desc": "I developed an application using React and Redux that features a movie list. Users can view the available movies in the list, add new movies, mark movies as favorites, or remove previously added movies from their favorites. Redux plays a central role in managing the application state, ensuring consistency and easy access to information such as the list of favorite movies and the overall movie list. This structure allows users to interact with the application intuitively and efficiently.",
+            "technologies": ["React", "Render", "Redux", "Axios", "Router"]
+          }
+        ],
+        "footer": {
+          "heading1": "Send me a message!",
+          "heading2": "Got a question or proposal, or just want to say hello? Go ahead.",
+          "email": "sejdaozgur@gmail.com"
+        }
+      }
+    }
+  
+  

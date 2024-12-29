@@ -1,0 +1,61 @@
+{
+    "hero": {
+      "heroTitle": "Ben bir Frontend Geliştiricisiyim...",
+      "heroDesc": "...ve harika kullanıcı deneyimlerine sahip, sağlam ve ölçeklenebilir frontend ürünleri oluşturmayı seviyorum.",
+      "githubLink": "https://github.com/sejda1",
+      "linkedinLink": "https://www.linkedin.com/in/sejdaozgurficici/"
+    },
+    "skills": {
+      "skills": "Beceriler"
+    },
+    "profile": {
+      "profileH": "Profil",
+      "birthday": "Doğum Günü",
+      "birtdayDetail": "10.09.1990",
+      "city": "Şehir",
+      "cityDetail": "Kırklareli",
+      "edu": "Eğitim Durumu",
+      "eduDetail1": "Trakya Üniversitesi, Fizik, Yüksek Lisans",
+      "eduDetail2": "Trakya Üniversitesi, Fizik, Lisans",
+      "prefer": "Tercih Edilen Rol",
+      "preferD": "Frontend Geliştirici",
+      "aboutH": "Hakkımda",
+      "aboutText1": "Sekiz yıl boyunca fizik öğretmeni olarak çalıştım ve öğrencilerime bilime olan sevgiyi aşılamaktan büyük keyif aldım. Ancak, uzun süredir yazılım geliştirmeye derin bir ilgi ve heyecan duyuyorum. Problemleri çözme ve yaratıcılığı birleştiren bu alan, yıllar içinde beni sürekli olarak kendine çekti.",
+      "aboutText2": "Artık hayallerimi takip etme zamanı olduğuna inanıyorum. Para kazanma peşinde koşmak yerine, tutkularımı sürdürmek ve yazılım geliştirme dünyasında büyümek istiyorum. Bu alanda öğrenmeye, katkıda bulunmaya ve başarılı olmaya hazırım."
+    },
+    "projects": {
+      "projectsH": "Projeler",
+      "view": "Siteyi Görüntüle",
+      "projectList": [
+        {
+          "src": "",
+          "link": "https://github.com/sejda1/Pizza-Order-Challange",
+          "live": "https://pizza-order-challange.vercel.app/",
+          "heading": "Pizza Sipariş Uygulaması",
+          "desc": "Yazılımcılar için yemek siparişi hizmeti sunan Teknolojik Yemekler markası adına bir Ana Sayfa, Sipariş Formu ve Sipariş Onayı sayfası tasarladım.",
+          "teknologies": ["React", "Cypress", "Vercel", "Axios", "Toastify", "Router"]
+        },
+        {
+          "src": "",
+          "link": "https://github.com/sejda1/Dinamik-Menu",
+          "live": "https://dinamik-menu.vercel.app/",
+          "heading": "Dinamik Menü",
+          "desc": "React ve CSS kullanarak geliştirdiğim bir kafe web sitesi projesinde, yalnızca yönetici yetkisine sahip kişilerin erişebileceği bir giriş sistemi oluşturdum. Yönetici giriş yaptıktan sonra, menüyü dinamik bir şekilde güncelleyebilecekleri bir arayüz sunulmaktadır. Ayrıca, menü verileri bir Excel tablosunda saklanmakta ve gerektiğinde bu tablo üzerinden güncellemeler yapılabilmektedir. Proje, kullanıcı dostu bir arayüz ve yöneticiler için kolay bir yönetim paneli sunmayı hedeflemektedir.",
+          "teknologies": ["React", "CSS", "Vercel", "Axios", "Router"]
+        },
+        {
+          "src": "",
+          "link": "https://github.com/sejda1/Movie-List-with-React-Redux",
+          "live": "https://movie-list-with-react-redux.vercel.app/",
+          "heading": "Film Listesi",
+          "desc": "React ve Redux kullanarak bir film listesi uygulaması geliştirdim. Kullanıcılar, mevcut filmleri görüntüleyebilir, yeni filmler ekleyebilir, filmleri favori olarak işaretleyebilir veya favorilerden kaldırabilir. Redux, uygulama durumunun yönetiminde merkezi bir rol oynar, favori filmler ve genel film listesi gibi bilgilerin tutarlı ve erişilebilir olmasını sağlar. Bu yapı, kullanıcıların uygulama ile sezgisel ve hızlı bir şekilde etkileşim kurmasına olanak tanır.",
+          "technologies": ["React", "Render", "Redux", "Axios", "Router"]
+        }
+      ],
+      "footer": {
+        "heading1": "Bana bir mesaj gönderin!",
+        "heading2": "Bir sorunuz veya öneriniz mi var ya da sadece merhaba demek mi istiyorsunuz? Hadi yazın.",
+        "email": "sejdaozgur@gmail.com"
+      }
+    }
+}

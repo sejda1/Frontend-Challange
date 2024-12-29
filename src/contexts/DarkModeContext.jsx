@@ -1,20 +1,27 @@
-import { createContext, useContext } from 'react';
-import useLocalStorage from '../hooks/useLocalStorage';
+import { createContext, useContext, useEffect } from "react";
+import useLocaleStorage from "../hooks/useLocalStorage";
 
 const DarkModeContext = createContext();
 
-export default function DarkModeProvider({ children }) {
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', false);
+export const DarkModeProvider = ({ children }) => {
+  const [darkMode, setDarkMode] = useLocaleStorage("darkMode", true);
 
   const toggleDarkMode = () => {
-    setDarkMode((prevMode) => !prevMode);
+    setDarkMode(!darkMode);
   };
+  useEffect(() => {
+    if (darkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [darkMode]);
   return (
-    <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
+    <DarkModeContext.Provider value={{ darkMode, setDarkMode, toggleDarkMode }}>
       {children}
     </DarkModeContext.Provider>
   );
-}
+};
 
 export const useDarkMode = () => {
   return useContext(DarkModeContext);

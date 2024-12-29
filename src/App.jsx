@@ -1,9 +1,15 @@
 import Portfolyo from "./pages/Portfolyo";
+import {LanguageProvider} from './contexts/LanguageContext';
+import {DarkModeProvider }from './contexts/DarkModeContext';
 
-export default function App() {
+function App() {
   return (
-   <>
-   <Portfolyo/>
-   </>
-  )
+    <LanguageProvider>
+      <DarkModeProvider>
+        <Portfolyo />
+      </DarkModeProvider>
+    </LanguageProvider>
+  );
 }
+
+export default App;

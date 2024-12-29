@@ -1,32 +1,17 @@
-import { createContext, useContext, useEffect } from 'react';
-import { data } from '../data/data';
-import useLocalStorage from '../hooks/useLocalStorage';
-import axios from 'axios';
+import { createContext, useState, useContext } from 'react';
 
-const LanguageContext = createContext();
+export const LanguageContext = createContext();
 
-export default function LanguageProvider({ children }) {
-  const [language, setLanguage] = useLocalStorage('language', 'tr');
+export function LanguageProvider({ children }) {
+  const [language, setLanguage] = useState('en'); 
 
-  useEffect(() => {
-    axios
-      .get('https://reqres.in/api/workintech')
-      .then((res) => {
-        console.log('data GET successfully!', res.data);
-      })
-      .catch((err) => {
-        console.error('data get failed!', err);
-      });
-  }, []);
 
-  const changeLanguage = () => {
+  const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === 'tr' ? 'en' : 'tr'));
   };
 
   return (
-    <LanguageContext.Provider
-      value={{ language, changeLanguage, data }}
-    >
+    <LanguageContext.Provider value={{ language, setLanguage, toggleLanguage }}>
       {children}
     </LanguageContext.Provider>
   );

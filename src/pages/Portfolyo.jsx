@@ -10,13 +10,15 @@ import Skills from "../components/Skills";
 
 export default function Portfolyo () {
     return (
-        <>
-        <Header/>
-        <Hero/>
-        <Skills/>
-        <Profile/>
-        <Projects/>
-        <Footer/>
-        </>
-    )
+        <div translate="no" className="flex flex-col ">
+          <Header />
+          <div className="flex flex-col">
+            <Hero />
+            <Skills />
+            <Profile />
+            <Projects />
+          </div>
+          <Footer />
+        </div>
+      );
 }
