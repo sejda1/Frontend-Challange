@@ -4,7 +4,7 @@ function Language() {
   const { language, setLanguage } = useLanguage();
   return (
     <div className="flex p-2 items-center">
-      {language === "en" ? (
+      {language === "eng" ? (
         <button
           onClick={() => setLanguage("tr")}
           className="text-xs dark:text-white"
@@ -16,7 +16,7 @@ function Language() {
         </button>
       ) : (
         <button
-          onClick={() => setLanguage("en")}
+          onClick={() => setLanguage("eng")}
           className="text-xs dark:text-white"
         >
           SWITCH TO

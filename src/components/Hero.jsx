@@ -18,24 +18,25 @@ function Hero() {
   return (
     <section
     className="p-8 md:p-16 pt-32 flex  min-h-screen "
+    //https://encycolorpedia.com.tr/
     style={
-      darkMode
-        ? {
-            background: "rgba(139,110,234)",
-            backgroundImage:
-              "linear-gradient(90deg, rgba(139,110,234,1) 67%, rgba(174,220,130,1)",
-          }
-        : {
-            background: "rgb(71,49,211)",
-            backgroundImage:
-              "linear-gradient(90deg, #4731D3 67%, #CBF281 67%)",
-          }
-    }
+        darkMode
+          ? {
+              background: "rgb(23,16,67)",
+              backgroundImage:
+                "linear-gradient(90deg, rgba(22, 15, 36, 1.0) 67%, rgba(26,33,11,1) 67%)",
+            }
+          : {
+              background: "rgb(71,49,211)",
+              backgroundImage:
+                "linear-gradient(90deg, rgba(71,49,211,1) 67%, rgba(107, 142, 35, 1.0) 67%)",
+            }
+      }
   >
     <div className="flex flex-col  w-full text-white gap-8 md:px-20">
       <p className="font-[700] text-[32px] text-[#CBF281]">Sejda ÖZGÜR FIÇICI</p>
       <div className="flex h-full items-center text-start  xl:flex-row flex-col">
-        <div className="w-full xl:w-3/5  py-4  flex flex-col justify-between ">
+        <div className="w-full xl:w-3/5  py-4  flex flex-col  ">
           <p className="text-[44px] w-3/4 font-[700] text-[#CBF281]">
             {heroTitle}
           </p>
