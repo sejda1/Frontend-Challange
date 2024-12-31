@@ -5,9 +5,72 @@
       "githubLink": "https://github.com/sejda1",
       "linkedinLink": "https://www.linkedin.com/in/sejdaozgurficici/"
     },
-    "skills": {
-      "skills": "Beceriler"
-    },
+   "skills": {
+    "skillsH": "Beceriler",
+    "skillsList": [
+        {
+            "id": 1,
+            "name": "JAVASCRIPT",
+            "img": "/assets/skills/js.webp",
+            "skillDesc": "Projelerde JavaScript'i kapsamlı bir şekilde kullanmada yetkin, dilin temel kavramlarına güçlü bir hakimiyet. Performansı ve sürdürülebilirliği artırmak için karmaşık kod yapıları yazabilir ve optimize edebilir."
+        },
+        {
+            "id": 2,
+            "name": "REACT",
+            "img":"/assets/skills/react.png",
+            "skillDesc": "Modern uygulamalarda sorunsuz entegrasyon için ileri düzey teknikler ve en iyi uygulamaları uygulayarak React konusunda son derece yetenekli. Verimli ve sürdürülebilir yapılar oluştururken performansı optimize edebilir."
+        },
+        {
+            "id": 3,
+            "name": "REDUX",
+            "img": "/assets/skills/redux.png",
+            "skillDesc": "Özellikle karmaşık projelerde Redux ile uygulama durumunu yönetmede yetkin. Ölçeklenebilir veri akışı kontrolü için optimize edilmiş, sürdürülebilir durum yönetimi yapıları oluşturabilir."
+        },
+        {
+            "id": 4,
+            "name": "NODE",
+            "img": "/assets/skills/node.png",
+            "skillDesc": "Basit ve orta düzey uygulamalar için arka uç geliştirme yapabilen, Node.js konusunda orta düzeyde yetkin. Sunucu tarafı kodunda hem güvenliği hem de performansı sağlar."
+        },
+        {
+            "id": 5,
+            "name": "HTML",
+            "img": "/assets/skills/html.png",
+            "skillDesc": "HTML5'i tam anlamıyla kullanarak optimal yapı için semantik ve erişilebilirlik standartlarına uyar. Modern web uygulamaları için temiz, iyi yapılandırılmış ve duyarlı kodlar oluşturur."
+        },
+        {
+            "id": 6,
+            "name": "CSS",
+            "img": "/assets/skills/css3.png",
+            "skillDesc": "Modern stillendirme tekniklerini ve animasyonları etkili bir şekilde kullanarak CSS3 ve ön işlemcilerde son derece yetenekli. Farklı ekranlara ve cihazlara sorunsuz uyum sağlayan duyarlı tasarımlar oluşturur."
+        },
+        {
+            "id": 7,
+            "name": "BOOTSTRAP",
+            "img": "/assets/skills/bootstrapn.png",
+            "skillDesc": "Hızlı bir şekilde duyarlı tasarımlar geliştirmek için Bootstrap konusunda deneyimli. Kullanıcı odaklı tasarımlar için arayüzleri özelleştirerek UI/UX'i geliştirir."
+        },
+        {
+            "id": 8,
+            "name": "TAILWIND",
+            "img": "/assets/skills/tailwind.png",
+            "skillDesc": "Hızlı, modüler stillendirme sağlayan Tailwind CSS konusunda yetkin. Kişiselleştirilmiş, yüksek performanslı kullanıcı arayüzleri oluşturmada uzmanlaşmıştır."
+        },
+        {
+            "id": 9,
+            "name": "GITHUB",
+            "img": "/assets/skills/github.png",
+            "skillDesc": "Sürüm kontrolü ve ortak geliştirme için GitHub kullanmada son derece yetkin. Ekip odaklı projeler için dalları etkili bir şekilde yönetir ve en iyi uygulamaları entegre eder."
+        },
+        {
+            "id": 10,
+            "name": "VSCODE",
+            "img": "/assets/skills/vscode.jpeg",
+            "skillDesc": "Visual Studio Code kullanmada verimli, gelişmiş yapılandırmalar ve uzantılar aracılığıyla üretkenliği optimize eder. Proje spesifik ihtiyaçlara göre çalışma alanını etkili bir şekilde özelleştirir."
+        }
+    ]
+},
+
     "profile": {
       "profileH": "Profil",
       "birthday": "Doğum Günü",

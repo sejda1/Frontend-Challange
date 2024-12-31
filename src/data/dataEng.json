@@ -6,8 +6,72 @@
         "linkedinLink": "https://www.linkedin.com/in/sejdaozgurficici/"
       },
       "skills": {
-        "skills": "Skills"
-      },
+        "skillsH": "Skills",
+        "skillsList":[
+        {
+          "id": 1,
+          "name": "JAVASCRIPT",
+          "img": "/assets/skills/js.webp",
+          "skillDesc": "Proficient in using JavaScript extensively in projects, with a strong command of the language's core concepts. Capable of writing and optimizing complex code structures for enhanced performance and maintainability."
+        },
+        {
+          "id": 2,
+          "name": "REACT",
+          "img":"/assets/skills/react.png",
+          "skillDesc": "Highly skilled in React, applying advanced techniques and best practices for seamless integration in modern applications. Capable of building efficient, maintainable structures while optimizing for performance."
+        },
+        {
+          "id": 3,
+          "name": "REDUX",
+          "img": "/assets/skills/redux.png",
+          "skillDesc": "Proficient in managing application state with Redux, especially in complex projects. Capable of creating optimized, maintainable state management structures for scalable data flow control."
+        },
+        {
+          "id": 4,
+          "name": "NODE",
+          "img": "/assets/skills/node.png",
+          "skillDesc": "Intermediate proficiency in Node.js, with the ability to handle back-end development for simple to medium-level applications, ensuring both security and performance in server-side code."
+        },
+        {
+          "id": 5,
+          "name": "HTML",
+          "img": "/assets/skills/html.png",
+          "skillDesc": "Fully adept at using HTML5, following semantic and accessibility standards for optimal structure. Creates clean, well-structured, and responsive code for modern web applications."
+        },
+        {
+          "id": 6,
+          "name": "CSS",
+          "img": "/assets/skills/css3.png",
+          "rating": 4,
+          "skillDesc": "Highly skilled in CSS3 and preprocessors, utilizing modern styling techniques and animations effectively. Crafts responsive designs that adapt seamlessly to different screens and devices."
+        },
+        {
+          "id": 7,
+          "name": "BOOTSTRAP",
+          "img": "/assets/skills/bootstrapn.png",
+          "skillDesc": "Experienced in Bootstrap for quickly developing responsive designs. Customizes interfaces for user-centric designs that enhance UI/UX."
+        },
+        {
+          "id": 8,
+          "name": "TAILWIND",
+          "img": "/assets/skills/tailwind.png",
+          "skillDesc": "Proficient in Tailwind CSS, enabling rapid, modular styling. Specializes in creating personalized, high-performance user interfaces."
+        },
+        {
+          "id": 9,
+          "name": "GITHUB",
+          "img": "/assets/skills/github.png",
+          "skillDesc": "Highly proficient in using GitHub for version control and collaborative development. Effectively manages branches and integrates best practices for team-oriented projects."
+        },
+       
+        {
+          "id": 10,
+          "name": "VSCODE",
+          "img": "/assets/skills/vscode.jpeg",
+          "skillDesc": "Efficient in using Visual Studio Code, optimizing productivity through advanced configurations and extensions. Customizes the workspace effectively for project-specific needs."
+        }
+      ]
+    },
       "profile": {
         "profileH": "Profile",
         "birthday": "Birthday",
