@@ -30,13 +30,13 @@ function Hero() {
             </p>
             <div className="mt-8 flex flex-col md:flex-row gap-4">
               <a
-                href={toggleLanguage("githubLink")}
+                href={toggleLanguage("hero").githubLink}
                 className="bg-white flex items-center gap-2 text-black py-3 px-4 rounded hover:bg-black hover:text-white"
               >
                 <FaGithub size={25} /> Github
               </a>
               <a
-                href={toggleLanguage("linkedinLink")}
+                href={toggleLanguage("hero").linedinLink}
                 className="bg-white flex items-center gap-2 text-black py-3 px-4 rounded hover:bg-blue-600 hover:text-white"
               >
                 <FaLinkedin size={25} /> Linkedin

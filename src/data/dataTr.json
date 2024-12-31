@@ -51,11 +51,12 @@
           "desc": "React ve Redux kullanarak bir film listesi uygulaması geliştirdim. Kullanıcılar, mevcut filmleri görüntüleyebilir, yeni filmler ekleyebilir, filmleri favori olarak işaretleyebilir veya favorilerden kaldırabilir. Redux, uygulama durumunun yönetiminde merkezi bir rol oynar, favori filmler ve genel film listesi gibi bilgilerin tutarlı ve erişilebilir olmasını sağlar. Bu yapı, kullanıcıların uygulama ile sezgisel ve hızlı bir şekilde etkileşim kurmasına olanak tanır.",
           "technologies": ["React", "Render", "Redux", "Axios", "Router"]
         }
-      ],
+      ]
+    },
       "footer": {
         "heading1": "Bana bir mesaj gönderin!",
         "heading2": "Bir sorunuz veya öneriniz mi var ya da sadece merhaba demek mi istiyorsunuz? Hadi yazın.",
         "email": "sejdaozgur@gmail.com"
       }
-    }
+    
 }

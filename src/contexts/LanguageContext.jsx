@@ -11,8 +11,10 @@ export function LanguageProvider({ children }) {
 
   const toggleLanguage = (key) => {
     const translate = language === "tr" ? TR_LANG : EN_LANG; 
+    console.log('toggleLanguage key:', key, 'translation:', translate[key]);  // Debugging line
     return translate[key] || key; 
   };
+  
   
 
   return (
