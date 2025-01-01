@@ -73,8 +73,9 @@
 
     "profile": {
       "profileH": "Profil",
+     "basicInfo": "Temel Bilgiler",
       "birthday": "Doğum Günü",
-      "birtdayDetail": "10.09.1990",
+      "birthdayDetail": "10.09.1990",
       "city": "Şehir",
       "cityDetail": "Kırklareli",
       "edu": "Eğitim Durumu",

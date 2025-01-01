@@ -74,8 +74,9 @@
     },
       "profile": {
         "profileH": "Profile",
+        "basicInfo": "Basic information",
         "birthday": "Birthday",
-        "birtdayDetail": "10.09.1990",
+        "birthdayDetail": "10.09.1990",
         "city": "City",
         "cityDetail": "Kırklareli",
         "edu": "Education Status",
