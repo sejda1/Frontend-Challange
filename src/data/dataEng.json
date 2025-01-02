@@ -93,15 +93,15 @@
         "view": "View Site",
         "projectList": [
           {
-            "src": "",
+            "id":1,
             "link": "https://github.com/sejda1/Pizza-Order-Challange",
             "live": "https://pizza-order-challange.vercel.app/",
-            "heading": "Pizza Order Challange",
+            "heading": "Technological Pizza",
             "desc": "I created a Homepage, Order Form and Order Received page for the brand Teknolojik Yemeks', a website designed to bring food to hungry software developers sitting in front of their computers.",
             "teknologies": ["React", "Cypress", "Vercel", "Axios", "Toastify", "Router"]
           },
           {
-            "src": "",
+           "id":2,
             "link": "https://github.com/sejda1/Dinamik-Menu",
             "live": "https://dinamik-menu.vercel.app/",
             "heading": "Dinamik Menu",
@@ -109,7 +109,7 @@
             "teknologies": ["React", "Css", "Vercel", "Axios", "Router"]
           },
           {
-            "src": "",
+            "id":3,
             "link": "https://github.com/sejda1/Movie-List-with-React-Redux",
             "live": "https://movie-list-with-react-redux.vercel.app/",
             "heading": "Movie List",

@@ -85,21 +85,23 @@
       "preferD": "Frontend Geliştirici",
       "aboutH": "Hakkımda",
       "aboutText1": "Sekiz yıl boyunca fizik öğretmeni olarak çalıştım ve öğrencilerime bilime olan sevgiyi aşılamaktan büyük keyif aldım. Ancak, uzun süredir yazılım geliştirmeye derin bir ilgi ve heyecan duyuyorum. Problemleri çözme ve yaratıcılığı birleştiren bu alan, yıllar içinde beni sürekli olarak kendine çekti.",
-      "aboutText2": "Artık hayallerimi takip etme zamanı olduğuna inanıyorum. Para kazanma peşinde koşmak yerine, tutkularımı sürdürmek ve yazılım geliştirme dünyasında büyümek istiyorum. Bu alanda öğrenmeye, katkıda bulunmaya ve başarılı olmaya hazırım."
+      "aboutText2": "Artık hayallerimi takip etme zamanı olduğuna inanıyorum. Tutkularımı sürdürmek ve yazılım geliştirme dünyasında büyümek istiyorum. Bu alanda öğrenmeye, katkıda bulunmaya ve başarılı olmaya hazırım."
     },
     "projects": {
       "projectsH": "Projeler",
       "view": "Siteyi Görüntüle",
       "projectList": [
         {
+          "id":1,
           "src": "",
           "link": "https://github.com/sejda1/Pizza-Order-Challange",
           "live": "https://pizza-order-challange.vercel.app/",
-          "heading": "Pizza Sipariş Uygulaması",
+          "heading": "Teknolojik Pizza",
           "desc": "Yazılımcılar için yemek siparişi hizmeti sunan Teknolojik Yemekler markası adına bir Ana Sayfa, Sipariş Formu ve Sipariş Onayı sayfası tasarladım.",
           "teknologies": ["React", "Cypress", "Vercel", "Axios", "Toastify", "Router"]
         },
         {
+          "id":2,
           "src": "",
           "link": "https://github.com/sejda1/Dinamik-Menu",
           "live": "https://dinamik-menu.vercel.app/",
@@ -108,6 +110,7 @@
           "teknologies": ["React", "CSS", "Vercel", "Axios", "Router"]
         },
         {
+          "id":3,
           "src": "",
           "link": "https://github.com/sejda1/Movie-List-with-React-Redux",
           "live": "https://movie-list-with-react-redux.vercel.app/",
