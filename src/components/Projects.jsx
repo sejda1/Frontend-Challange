@@ -94,7 +94,7 @@ export default function Projects() {
                       href={project.live}
                       className="flex items-center gap-2 text-black dark:text-[#CBF281] dark:hover:text-blue-300 scale-90 hover:scale-100 duration-200 underline"
                     >
-                      View App <FaRegArrowAltCircleRight />
+                      View Site <FaRegArrowAltCircleRight />
                     </a>
                   </div>
                 </div>
